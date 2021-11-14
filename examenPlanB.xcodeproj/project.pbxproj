@@ -14,6 +14,8 @@
 		82589369273FF06000368D4F /* examenPlanB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82589367273FF06000368D4F /* examenPlanB.xcdatamodeld */; };
 		8258936B273FF06200368D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8258936A273FF06200368D4F /* Assets.xcassets */; };
 		8258936E273FF06200368D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8258936C273FF06200368D4F /* LaunchScreen.storyboard */; };
+		82589376273FF39500368D4F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82589375273FF39500368D4F /* DetailViewController.swift */; };
+		82A378E727401CF60072019F /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A378E627401CF60072019F /* CartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8258936A273FF06200368D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8258936D273FF06200368D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8258936F273FF06200368D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82589375273FF39500368D4F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		82A378E627401CF60072019F /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,13 @@
 				8258935E273FF06000368D4F /* AppDelegate.swift */,
 				82589360273FF06000368D4F /* SceneDelegate.swift */,
 				82589362273FF06000368D4F /* ViewController.swift */,
+				82589375273FF39500368D4F /* DetailViewController.swift */,
 				82589364273FF06000368D4F /* Main.storyboard */,
 				8258936A273FF06200368D4F /* Assets.xcassets */,
 				8258936C273FF06200368D4F /* LaunchScreen.storyboard */,
 				8258936F273FF06200368D4F /* Info.plist */,
 				82589367273FF06000368D4F /* examenPlanB.xcdatamodeld */,
+				82A378E627401CF60072019F /* CartViewController.swift */,
 			);
 			path = examenPlanB;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			files = (
 				82589363273FF06000368D4F /* ViewController.swift in Sources */,
 				8258935F273FF06000368D4F /* AppDelegate.swift in Sources */,
+				82589376273FF39500368D4F /* DetailViewController.swift in Sources */,
 				82589361273FF06000368D4F /* SceneDelegate.swift in Sources */,
+				82A378E727401CF60072019F /* CartViewController.swift in Sources */,
 				82589369273FF06000368D4F /* examenPlanB.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -318,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
